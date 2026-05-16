@@ -1,0 +1,39 @@
+specification: API Commons Plans
+specificationVersion: '0.1'
+schema: https://raw.githubusercontent.com/api-evangelist/interface-research/main/schema/api-commons.yml#/$defs/Plans
+provider: Aéropostale
+providerId: aeropostale
+created: '2026-05-16'
+modified: '2026-05-16'
+reconciled: false
+tags:
+  - Retail
+  - Fashion
+  - Teen Apparel
+description: Aéropostale has no public developer API or developer portal. Brand IP is owned by Authentic Brands Group and operated under licence; affiliate and franchise relationships use third-party networks rather than an Aéropostale-branded API.
+notes: No public developer API — placeholder only.
+sources:
+  - https://www.aeropostale.com/
+plans:
+  - id: aeropostale-affiliate-network
+    name: Affiliate-Network Access
+    type: enterprise
+    description: Affiliate distribution is mediated by Rakuten Advertising / CJ Affiliate, not by a self-service Aéropostale API.
+    entries:
+      - label: Affiliate program
+        name: affiliate_program
+        type: revenue_share
+        metric: sale
+        limit: -1
+        timeFrame: year
+        geo: US
+        unit: 1
+        price: commission via affiliate network — see network for current rates
+        userMultiplied: false
+    elements:
+      - name: Rakuten Advertising Aéropostale program
+      - name: CJ Affiliate Aéropostale program
+      - name: No standalone developer plan
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

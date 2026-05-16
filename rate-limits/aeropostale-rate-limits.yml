@@ -1,0 +1,28 @@
+specification: API Commons Rate Limits
+specificationVersion: '0.1'
+schema: https://raw.githubusercontent.com/api-evangelist/interface-research/main/schema/api-commons.yml#/$defs/RateLimits
+provider: Aéropostale
+providerId: aeropostale
+created: '2026-05-16'
+modified: '2026-05-16'
+reconciled: false
+tags:
+  - Retail
+  - Rate Limiting
+description: Aéropostale does not publish a public developer API; there are no public rate limits. Affiliate-network throttling is governed by the network operator.
+notes: No public developer API — placeholder only.
+sources:
+  - https://www.aeropostale.com/
+responseCodes:
+  throttled: 429
+limits:
+  - name: No public rate limits
+    scope: account
+    metric: not_applicable
+    limit: not applicable
+policies:
+  - name: Affiliate-network throttling
+    description: Product feed download rates and request throttling on affiliate-network endpoints are set by the network operator.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

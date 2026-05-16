@@ -9,9 +9,58 @@ tags:
   - Teen Apparel
 description: 'An American specialty retailer offering on-trend apparel, accessories, and personal care products targeted at teens and young adults. Operates stores across the United States and internationally through franchise partnerships.'
 created: '2026-05-05'
-modified: '2026-05-05'
+modified: '2026-05-16'
 specificationVersion: '0.19'
 apis: []
 common:
   - type: Website
     url: https://www.aeropostale.com/
+  - type: Login
+    url: https://www.aeropostale.com/account/login
+  - type: Features
+    data:
+      - name: Online Storefront
+        description: Direct-to-consumer e-commerce storefront for apparel, accessories, and personal-care products.
+      - name: Tarjeta Aéropostale Rewards
+        description: Aéropostale loyalty / rewards program for U.S. customers offering points on purchases and member-only offers.
+      - name: Store Locator
+        description: Locate U.S. and international Aéropostale stores including franchise locations.
+      - name: Aero Credit Card
+        description: Co-branded retail credit card with reward acceleration on Aéropostale purchases.
+  - type: UseCases
+    data:
+      - name: Teen Apparel Retail
+        description: Specialty apparel retail targeted at teens and young adults via stores and e-commerce.
+      - name: Mall-Based Retail
+        description: Branded brick-and-mortar retail operating primarily in U.S. shopping malls.
+      - name: International Franchise Distribution
+        description: International market distribution through franchise partner agreements.
+      - name: Loyalty Engagement
+        description: Loyalty-driven customer engagement through the rewards program and email marketing.
+  - type: Authentication
+    data:
+      - name: No Public API
+        description: Aéropostale does not publish a public developer API or developer portal. Affiliate partners use third-party affiliate networks (Rakuten / CJ Affiliate) and international franchisees integrate bilaterally with Authentic Brands Group / SPARC Group.
+  - type: Compliance
+    data:
+      - name: PCI DSS
+        description: Payment Card Industry Data Security Standard compliance for online and in-store card payments.
+      - name: CCPA
+        description: California Consumer Privacy Act compliance for California customers.
+      - name: COPPA
+        description: Children's Online Privacy Protection Act considerations apply due to the teen / young-adult target demographic.
+      - name: GDPR
+        description: Applies to European franchise market customers where relevant.
+  - type: Integrations
+    data:
+      - name: Authentic Brands Group
+        description: Authentic Brands Group owns the Aéropostale brand; the operational retail business is run by partners such as SPARC Group / Simon Property Group.
+      - name: SPARC Group
+        description: SPARC Group operates Aéropostale's U.S. retail and e-commerce business under license from Authentic Brands Group.
+      - name: Rakuten Advertising
+        description: Rakuten Advertising affiliate network distribution.
+      - name: CJ Affiliate
+        description: Commission Junction (CJ) affiliate program partner.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

@@ -1,4 +1,4 @@
-# Aéropostale (aeropostale)
+# Aéropostale
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,72 +66,95 @@
 
 An American specialty retailer offering on-trend apparel, accessories, and personal care products targeted at teens and young adults. Operates stores across the United States and internationally through franchise partnerships.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/aeropostale/refs/heads/main/apis.yml)
+**Areas:** Retail · Fashion · Teen Apparel
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=aeropostale-api-evangelist&utm_content=repo)
+## Aéropostale on APIs.io
 
-## Tags:
+Everything profiled for Aéropostale is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/aeropostale/](https://apis.io/providers/aeropostale/)** — or go straight to one of the APIs or properties below.
 
- - Retail, Fashion, Teen Apparel
+### Published properties
 
-## Timestamps
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-- **Created:** 2026-05-05
-- **Modified:** 2026-05-16
+#### Security (1)
 
-## APIs
+Authentication, trust centre, and vulnerability disclosure.
 
-Aéropostale does not publish a public developer API or developer portal. Affiliate partners use third-party affiliate networks (Rakuten / CJ Affiliate) and international franchisees integrate bilaterally with Authentic Brands Group / SPARC Group.
+- [Aeropostale Domain Security](https://apis.io/security/aeropostale/aeropostale-domain-security/)
 
-## Common Properties
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Aeropostale Plans Pricing](https://apis.io/plans/aeropostale/aeropostale-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Aeropostale Rate Limits](https://apis.io/rate-limits/aeropostale/aeropostale-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Aeropostale Finops](https://apis.io/finops/aeropostale/aeropostale-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.aeropostale.com/)
-- [Login](https://www.aeropostale.com/account/login)
 
-## Features
+## API Evangelist rating
 
-| Name | Description |
-|------|-------------|
-| Online Storefront | Direct-to-consumer e-commerce storefront for apparel, accessories, and personal-care products. |
-| Tarjeta Aéropostale Rewards | Aéropostale loyalty / rewards program offering points on purchases and member-only offers. |
-| Store Locator | Locate U.S. and international Aéropostale stores including franchise locations. |
-| Aero Credit Card | Co-branded retail credit card with reward acceleration on Aéropostale purchases. |
+**Kin Score 11.2** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-## Use Cases
+| Facet | Score |
+|---|---|
+| Discoverability | 39.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 19.7 |
 
-| Name | Description |
-|------|-------------|
-| Teen Apparel Retail | Specialty apparel retail targeted at teens and young adults via stores and e-commerce. |
-| Mall-Based Retail | Branded brick-and-mortar retail operating primarily in U.S. shopping malls. |
-| International Franchise Distribution | International market distribution through franchise partner agreements. |
-| Loyalty Engagement | Loyalty-driven customer engagement through the rewards program and email marketing. |
+**Agent readiness 3.1** — human-only
 
-## Authentication
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-| Name | Description |
-|------|-------------|
-| No Public API | Aéropostale does not publish a public developer API or developer portal. |
+**Regulatory alignment 16.7** — Horizontal (data, software, accessibility, platform)
 
-## Compliance
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/aeropostale/](https://apis.io/providers/aeropostale/).
 
-| Name | Description |
-|------|-------------|
-| PCI DSS | Payment Card Industry Data Security Standard compliance for online and in-store card payments. |
-| CCPA | California Consumer Privacy Act compliance for California customers. |
-| COPPA | Children's Online Privacy Protection Act considerations apply due to the teen / young-adult target demographic. |
-| GDPR | Applies to European franchise market customers where relevant. |
+## How this profile is made
 
-## Integrations
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-| Name | Description |
-|------|-------------|
-| Authentic Brands Group | Authentic Brands Group owns the Aéropostale brand. |
-| SPARC Group | SPARC Group operates Aéropostale's U.S. retail and e-commerce business under license from Authentic Brands Group. |
-| Rakuten Advertising | Rakuten Advertising affiliate network distribution. |
-| CJ Affiliate | Commission Junction (CJ) affiliate program partner. |
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Aéropostale: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-## Maintainers
+## Open an issue
 
-**FN:** Kin Lane
-
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/aeropostale/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
